@@ -1,0 +1,122 @@
+/*
+Theme Name: Bootstrap5 IT Works Better
+Theme URI: https://itworksbetter.net
+Author: Kamil Wyremski
+Author URI: https://wyremski.pl
+Description: Bootstrap 5 WordPress Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: itworksb5
+Tags:
+*/
+
+.navbar-brand .navbar-brand__logo{
+  height: 50px;
+}
+.site-info{
+  padding: 20px;
+}
+.section{
+  margin-top: 50px; margin-bottom: 50px;
+}
+.wp-post-image{
+  max-width: 100%; height: auto;
+}
+.page-title{
+  font-size: 32px; margin-bottom: 30px;
+}
+/* widget */
+.widget{
+  margin-bottom: 15px;
+}
+.widget a{
+  text-decoration: none;
+}
+.widget-title, .widgettitle{
+  font-size: 22px;
+}
+.widget ul{
+  list-style: none; padding:0; margin:0;
+}
+.widget ul ul{
+  margin-left: 10px;
+}
+/* end widget */
+/* entry */
+.post{
+  margin-top: 15px; margin-bottom: 15px; border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+.entry-title a{
+  text-decoration: none;
+}
+.entry-meta{
+  margin-bottom: 10px; font-size: 13px;
+}
+.entry-meta a{
+  text-decoration: none;
+}
+.entry-meta .posted-on, .entry-meta .byline, .entry-meta .cat-links, .entry-meta .comments-link{
+  margin-right: 10px;
+}
+.entry-meta .far{
+  margin-right: 5px;
+}
+.entry-footer{
+  margin-bottom: 30px;
+}
+/* end entry */
+/* footer */
+.site-footer{
+  background-color: rgba(0,0,0,0.05); padding-top: 50px;
+}
+.site-info{
+  background-color: rgba(0,0,0,0.08); margin-top: 40px;
+}
+/* end footer */
+/* comments */
+.comments-title{
+  font-size: 26px;
+}
+.comment-navigation .nav-links{
+  display: flex; margin: 15px 0;
+}
+.comment-navigation .nav-links .nav-previous{
+  margin-right: 10px;
+}
+.comment-navigation .nav-links a{
+  text-decoration: none;
+}
+.comment-meta a{
+  text-decoration: none;
+}
+.comment-metadata{
+  font-size: 13px;
+}
+.comment-body{
+  margin-bottom: 25px;
+}
+.comment-content p{
+  margin-bottom:0;
+}
+.comment-body .reply{
+  text-decoration: none; font-size: 13px;
+}
+.comment-reply-title{
+  font-size: 22px;
+}
+.comment-reply-title small{
+  margin-left: 10px; font-size: 16px;
+}
+/* end comments */
+/* tags */
+.tags-links{
+  margin-right: 25px;
+}
+.tags-links .fas{
+  margin-right: 10px;
+}
+.tags-links a{
+  text-decoration: none;
+}
+/* end tags */
