@@ -6,6 +6,6 @@ Oparty o:
 - Bootstrap5 https://getbootstrap.com/
 - Motyw StrapPress https://github.com/braginteractive/StrapPress
 - Wtyczka Advanced Custom Fields https://www.advancedcustomfields.com/pro/
- - Wtyczka ta jest wymagana
- -  W folderze examples znajduje się przykładowy plik eskportu z ACF.
+    - Wtyczka ta jest wymagana
+    -  W folderze examples znajduje się przykładowy plik eskportu z ACF.
 
