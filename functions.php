@@ -34,6 +34,12 @@ if ( ! function_exists( 'itworksb5_setup' ) ) :
 			'footer' => esc_html__( 'Footer', 'itworksb5' ),
 		) );
 
+		add_theme_support( 'custom-logo', array(
+			'height'      => 75,
+			'width'       => 320,
+			'flex-width'  => true,
+			'flex-height' => true,
+		) );
 	}
 endif;
 
@@ -49,9 +55,6 @@ require get_template_directory() . '/inc/bootstrap-pagination.php';
 
 require get_template_directory() . '/inc/bootstrap-walker.php';
 
-/**
- * Load WooCommerce compatibility file.
- */
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
