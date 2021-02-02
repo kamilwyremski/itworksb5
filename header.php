@@ -18,9 +18,12 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-		<?php $logo = get_field('logo', 5); // jeśli ID strony głownej to 5 ?>
+		<?php
+			$custom_logo_id = get_theme_mod( 'custom_logo' );
+			$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+		?>
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="navbar-brand">
-			<?php if ($logo): ?><img src="<?= $logo['url'] ?>" alt="<?php bloginfo( 'name' ); ?>" class="navbar-brand__logo"><?php else: bloginfo( 'name' ); endif; ?>
+			<?php if ($logo): ?><img src="<?= $logo[0] ?>" alt="<?php bloginfo( 'name' ); ?>" class="navbar-brand__logo"><?php else: bloginfo( 'name' ); endif; ?>
 		</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
