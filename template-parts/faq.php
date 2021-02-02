@@ -1,5 +1,5 @@
 <?php
-if( have_rows('faq') ): ?>
+if( function_exists( 'have_rows' ) && have_rows('faq') ): ?>
   <div class="accordion mb-4" id="accordion">
     <?php 
       $i = 1;

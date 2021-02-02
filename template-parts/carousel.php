@@ -1,4 +1,4 @@
-<?php	if( have_rows('carousel') ): ?>
+<?php	if( function_exists( 'have_rows' ) && have_rows('carousel') ): ?>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <ol class="carousel-indicators">
       <?php 
