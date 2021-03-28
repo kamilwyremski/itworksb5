@@ -9,3 +9,5 @@ Oparty o:
     - Wtyczka ta jest wymagana
     -  W folderze examples znajduje się przykładowy plik eskportu z ACF.
 
+
+Więcej informacji pod https://blog.wyremski.pl/wlasny-motyw-do-wordpressa-itworksb5/
