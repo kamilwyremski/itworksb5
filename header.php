@@ -25,6 +25,7 @@
 		<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="navbar-brand">
 			<?php if ($logo): ?><img src="<?= $logo[0] ?>" alt="<?php bloginfo( 'name' ); ?>" class="navbar-brand__logo"><?php else: bloginfo( 'name' ); endif; ?>
 		</a>
+	  <?php if (has_nav_menu('primary')): ?>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,6 +42,7 @@
 						wp_nav_menu($args);
 					}
 				?>
-    </div>
+      </div>
+    <?php endif; ?>
   </div>
 </nav>
